@@ -2,7 +2,7 @@
 
 function Card({currentState, setState, msg, title}) {
   
-  const handleClick = event => {
+  const handleClick = () => {
     setState(msg);
   };
 

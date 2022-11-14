@@ -17,7 +17,8 @@ function ChildTwo({
     childtwo: '',
   };
   const [values, setValues] = useState(initialValues);
-  
+  const [animate, setAnimate] = useState(false);
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setValues({
@@ -33,6 +34,7 @@ function ChildTwo({
     setParentState(values.parent)
     setChildOneState(values.childone)
     setChildTwoState(values.childtwo)
+    setAnimate(!animate)
   }
   
   return (
