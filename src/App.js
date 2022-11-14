@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3 className="AppTitle">I am the APP state: {appState}</h3>
+      <h2 className="AppTitle">I am the APP state: {appState}</h2>
       <Container>
         <Row>
           <Col>
