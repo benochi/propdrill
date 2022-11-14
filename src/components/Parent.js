@@ -10,7 +10,7 @@ function Parent({appState, setAppState}) {
 
   return (
     <div className="Parent">
-      <h1 className="ParentState">Parent State inside Parent: {parentState}</h1>
+      <h2 className="ParentState">Parent State inside Parent: {parentState}</h2>
       <Card 
         currentState={parentState} 
         setState={setParentState} 

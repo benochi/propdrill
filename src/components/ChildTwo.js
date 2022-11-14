@@ -16,7 +16,7 @@ function ChildTwo({
 
   return (
     <div className="ChildTwo">
-      <h1 className="ChildTwoState">Child Two State inside ChildTwo: {childTwoState}</h1>
+      <h2 className="ChildTwoState">Child Two State inside ChildTwo: {childTwoState}</h2>
       <p className="ParentState">ParentState inside Childtwo: {parentState} </p>
       <p className="ChildOneState">ChildOneState inside ChildTwo: {childOneState}</p>
       <Card 

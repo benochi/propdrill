@@ -9,7 +9,7 @@ function ChildOne({parentState, setParentState, appState, setAppState}) {
 
   return (
     <div className="ChildOne">
-      <h1 className="ChildOneState">Child One state inside ChildOne: {childOneState}</h1>
+      <h2 className="ChildOneState">Child One state inside ChildOne: {childOneState}</h2>
       <p className="ParentState">ParentState inside Childone: {parentState} </p>
       <Card currentState={childOneState} setState={setChildOneState} msg={childOneMsg} title={title}/>
       <ChildTwo 
