@@ -37,6 +37,10 @@
     transform: rotate(360deg);
   }
 }
+.AppTitle{
+  color: aliceblue;
+  padding: 5px;
+}
 
 .Parent {
   border-style: solid;
