@@ -12,9 +12,11 @@ function App() {
       <Container>
         <Row>
           <Col>
+            <h4 className="AppTitle">Parent 1</h4>
             <Parent appState={appState} setAppState={setAppState} />
           </Col>
           <Col>
+            <h4 className="AppTitle">Parent 2</h4>
             <Parent appState={appState} setAppState={setAppState}/>
           </Col>
         </Row>
