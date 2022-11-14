@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.Parent {
+  border-style: solid;
+}
+
+.ParentState {
+  background-color: cornflowerblue;
+}
+
+.ChildOne {
+  border-style: double;
+  padding: 2px;
+}
+
+.ChildOneState {
+  background-color: greenyellow;
+}
+
+.ChildTwo {
+  border-style: dashed;
+  padding: 2px;
+}
+
+.ChildTwoState {
+  background-color: orangered;
+}
+
+.Card {
+  flex: auto;
+  padding: 5px;
+}
