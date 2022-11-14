@@ -11,8 +11,9 @@ function Parent() {
   return (
     <div className="Parent">
       <h1 className="ParentState">Parent State inside Parent: {parentState}</h1>
-      <ChildOne parentState={parentState} setParentState={setParentState} />
       <Card currentState={parentState} setState={setParentState} msg={parentMsg} title={title}/>
+      <ChildOne parentState={parentState} setParentState={setParentState} />
+      
     </div>
   );
 }

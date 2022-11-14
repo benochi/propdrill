@@ -66,4 +66,5 @@
 .Card {
   flex: auto;
   padding: 5px;
+  background-color: lightcyan;
 }
