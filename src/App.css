@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:#282c34;
 }
 
 .App-logo {
@@ -39,6 +40,7 @@
 
 .Parent {
   border-style: solid;
+  background-color: azure;
 }
 
 .ParentState {
@@ -48,6 +50,8 @@
 .ChildOne {
   border-style: double;
   padding: 2px;
+  margin: 10px;
+  background-color:#282c34;
 }
 
 .ChildOneState {
@@ -57,6 +61,8 @@
 .ChildTwo {
   border-style: dashed;
   padding: 2px;
+  margin: 10px;
+  background-color: azure;
 }
 
 .ChildTwoState {
