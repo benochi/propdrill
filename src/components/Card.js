@@ -10,7 +10,7 @@ function Card({currentState, setState, msg, title}) {
     <div className="Card">
       <h2>{title}</h2>
       <p>currentState: {currentState}</p>
-      <button onClick={handleClick}>I change state:</button>
+      <button onClick={handleClick}>setComponentState</button>
     </div>
   );
 }

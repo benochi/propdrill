@@ -10,15 +10,15 @@ function ChildTwo({
   appState, 
   setAppState
 }) {
-  const [childTwoState, setChildTwoState] = useState("childTwoState Default")
-  let childTwoMsg = "I'm a new message from the ChildTwo card"
+  const [childTwoState, setChildTwoState] = useState("default")
+  let childTwoMsg = "CHANGED"
   let title = "I'm a card inside the ChildTwo component"
 
   return (
     <div className="ChildTwo">
-      <h2 className="ChildTwoState">Child Two State inside ChildTwo: {childTwoState}</h2>
-      <p className="ParentState">ParentState inside Childtwo: {parentState} </p>
-      <p className="ChildOneState">ChildOneState inside ChildTwo: {childOneState}</p>
+      <h2 className="ChildTwoState">ChildTwo's State: {childTwoState}</h2>
+      <p className="ParentState">Parent's State inside ChildOne inside Childtwo: {parentState} </p>
+      <p className="ChildOneState">ChildOne's State inside ChildTwo: {childOneState}</p>
       <Card 
         currentState={childTwoState} 
         setState={setChildTwoState} 

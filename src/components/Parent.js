@@ -4,13 +4,13 @@ import ChildOne from "./ChildOne";
 import Card from "./Card"
 
 function Parent({appState, setAppState}) {
-  const [parentState, setParentState] = useState("Parent Default")
-  let parentMsg = "I'm a new message from the Parent card"
+  const [parentState, setParentState] = useState("default")
+  let parentMsg = "CHANGED"
   let title = "I'm a card inside the Parent component"
 
   return (
     <div className="Parent">
-      <h2 className="ParentState">Parent State inside Parent: {parentState}</h2>
+      <h2 className="ParentState">Parent's State: {parentState}</h2>
       <Card 
         currentState={parentState} 
         setState={setParentState} 

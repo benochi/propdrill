@@ -43,42 +43,57 @@
 }
 
 .Parent {
-  border-style: solid;
   background-color: azure;
+  border:solid 5px purple;
 }
 
 .ParentState {
   background-color: cornflowerblue;
+  border: solid 2px #282c34;
+  border-radius: 25px;
+  margin-top: 5px;
 }
 
 .ChildOne {
-  border-style: double;
   padding: 2px;
-  margin: 10px;
-  background-color:#282c34;
+  margin: 40px;
+  background-color:aquamarine;
+  border: solid 5px aqua;
 }
 
 .ChildOneState {
   background-color: greenyellow;
+  border: solid 2px #282c34;
+  border-radius: 25px;
+  margin-top: 5px;
 }
 
 .ChildTwo {
-  border-style: dashed;
   padding: 2px;
-  margin: 10px;
-  background-color: azure;
+  margin: 40px;
+  background-color:gold;
+  border: groove 5px goldenrod;
 }
 
 .ChildTwoState {
   background-color: orangered;
+  border: solid 2px #282c34;
+  border-radius: 25px;
+  margin-top: 5px;
 }
 
 .Card {
   flex: auto;
-  padding: 5px;
-  background-color: lightcyan;
+  margin: 25px;
+  background-color:papayawhip;
+  border:groove 15px burlywood;
+  border-radius: 15px;
+  width:fit-content;
 }
 
+.currentState{
+  background-color: blue;
+}
 .animate {
   transition: transform .35s ease-in-out;
 }
