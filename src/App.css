@@ -42,6 +42,13 @@
   padding: 5px;
 }
 
+.AppState{
+  background-color: aliceblue;
+  border: solid 2px #282c34;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
 .Parent {
   background-color: azure;
   border:solid 5px purple;

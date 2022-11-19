@@ -79,6 +79,10 @@ function ChildTwo({
         </div>
         <button type="submit"> Submit </button>
       </form>
+      <p className="AppState">AppState: {appState}</p>
+      <p className="ParentState">Parent's GrandChild: {parentState} </p>
+      <p className="ChildOneState">ChildOne's State: {childOneState}</p>
+      <p className="ChildTwoState">ChildTwo's State: {childTwoState}</p>
     </div>
   );
 }
