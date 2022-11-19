@@ -11,7 +11,12 @@ function ChildOne({parentState, setParentState, appState, setAppState}) {
     <div className="ChildOne">
       <h2 className="ChildOneState">ChildOne's State: {childOneState}</h2>
       <p className="ParentState">Parent's State inside ChildOne: {parentState} </p>
-      <Card currentState={childOneState} setState={setChildOneState} msg={childOneMsg} title={title}/>
+      <Card 
+        currentState={childOneState} 
+        setState={setChildOneState} 
+        msg={childOneMsg} 
+        title={title}
+      />
       <ChildTwo 
         parentState={parentState}
         setParentState={setParentState}
